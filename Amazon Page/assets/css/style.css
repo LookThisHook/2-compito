@@ -1,0 +1,129 @@
+/* Corpo della pagina */
+body {
+    margin: 0;
+    background-color: #e9edee;
+  }
+  
+  /* Logo e navigazione */
+  .logo1 {
+    background-color: #222f3f;
+  }
+  
+  .logo1 img {
+    width: 5%;
+    height: auto;
+    padding: 15px;
+  }
+  
+  nav,
+  .a1 {
+    background-color: #364759;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Banner 1 */
+  .banner1 {
+    text-align: center;
+    color: #ffe9cb;
+    background-color: #f56600;
+    padding: 8px;
+    margin: 25px;
+    height: auto;
+  }
+  
+  p {
+    margin: 5px;
+  }
+  
+  /* Banner 2 */
+  .banner2 {
+    margin: 25px;
+    position: relative; /* Necessario per il posizionamento assoluto del testo */
+  }
+  
+  .banner2 img {
+    width: 100%;
+    height: auto;
+    display: block; /* Rimuove gli spazi sotto l'immagine */
+  }
+  
+  /* Testo sopra l'immagine */
+  .banner-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+  }
+  
+  .banner-text p {
+    margin: 0;
+    padding: 5px 0;
+  }
+  
+  /* Banner 3 - Immagini disposte orizzontalmente */
+  .banner3 {
+    display: inline-block;
+    width: 100%;
+    margin: 25px;
+    height: auto;
+    text-align: center;
+    background-color: white;
+  }
+  
+  .image {
+    display: inline-block;
+    text-align: center;
+    width: 15%;
+    padding: 15px;
+  }
+  
+  .banner4 {
+    text-align: center;
+    width: 100%;
+    margin: 25px;
+  }
+  
+  .banner4foto {
+    width: 100%;
+    height: auto;
+  }
+  
+  .banner5 {
+    text-align: center;
+    margin: 25px;
+    width: 100%;
+    border-top: 2px solid #ccc;
+  }
+  
+  .a2 {
+    color: #105d73;
+    font-weight: bold;
+  }
+  
+  .tornasu,
+  .a3 {
+    text-align: center;
+    background-color: #364759;
+    margin-top: 15px;
+    color: white;
+    padding: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #222f3f;
+    padding: 35px;
+  }
+  
+  footer img {
+    width: 5%;
+    height: auto;
+  }
+  
